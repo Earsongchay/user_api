@@ -26,11 +26,11 @@ public class Product {
   String name;
 
   @Column(name = "price", nullable = false)
-  String price;
+  Double price;
 
   @Column(name = "qty", nullable = false)
-  String qty;
+  Long qty;
 
   @Column(name = "amount", nullable = false)
-  String amount;
+  Long amount;
 }
